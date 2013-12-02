@@ -1,54 +1,171 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
   <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Matilda Bernard : " />
-
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-
+    <meta charset="utf-8">
     <title>Matilda Bernard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Matilda Bernard, student, internship, computers">
+    <meta name="author" content="Matilda Bernard">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+       .featurette-divider {
+      margin: 10px 0; /* Space out the Bootstrap <hr> more */
+      border-color: transparent ;
+    }
+    .featurette {
+      padding-top: 50px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      height: 100px;
+      margin-bottom: 20px;
+
+
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+      margin-left:40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+    @media (max-width: 979px) {
+      .featurette {
+        height: auto;
+        padding: 0;
+        float:none;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        /*float: none;*/
+        max-width: 40%;
+        margin: 0 20px;
+      }
+      .featurette-heading.pull-left,
+      .featurette-heading.pull-right {
+        display: block;
+        /*float: none;*/
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+
+    }
+
+    @media (max-width: 767px) {
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      .featurette .lead .pull-left,
+      .featurette .lead .pull-right {
+        display: block;
+        /*float: none;*/
+        max-width: 40%;
+        margin: 0 auto 20px;}
+
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet' type='text/css'>
+
   </head>
 
-  <body>
+  <body style="background-image:url('img/background.png');">
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/serah">View on GitHub</a>
 
-          <h1 id="project_title">Matilda Bernard</h1>
-          <h2 id="project_tagline"></h2>
+    <div class="container marketing" style="width:60%">
 
-        </header>
-    </div>
+    <h1 style="color:brown;font-family: 'Arizonia', cursive;font-size:500%"> Matilda Bernard </h1>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="blog" class="anchor" href="#blog"><span class="octicon octicon-link"></span></a><a href="blog.matildabernard.in">Blog</a>
-</h3>
 
-<h3>
-<a name="twitter" class="anchor" href="#twitter"><span class="octicon octicon-link"></span></a><a href="https://twitter.com/RedAdmiral_">Twitter</a>
-</h3>
+      <!-- START THE FEATURETTES -->
 
-<h3>
-<a name="projects" class="anchor" href="#projects"><span class="octicon octicon-link"></span></a><a href="https://github.com/serah">Projects</a>
-</h3>
-      </section>
-    </div>
+      <hr class="featurette-divider" style="border-color:#282828">
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      <div class="featurette">
+        <h2 class="featurette-heading" style="font-family: 'Fondamento', cursive;margin-left:50px;"><a href="http://blog.matildabernard.in">Blog</a></h2><br/>
+        <p class="lead" style="margin-left:50px;color:#909090 ">My ramblings. Mostly about code</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <h2 class="featurette-heading" style="font-family: 'Fondamento', cursive;margin-left:50px;"><a href="https://github.com/serah">Projects</a></h2><br/>
+        <p class="lead" style="margin-left:50px;color:#909090 ">Most of code is here.</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="featurette">
+        <h2 class="featurette-heading" style="font-family: 'Fondamento', cursive;margin-left:50px;"><a href="https://twitter.com/RedAdmiral_">Twitter</a></h2><br/>
+        <p class="lead" style="margin-left:50px;color:#909090 ">Tweet Tweet ;)</p>
+      </div>
+
+      <hr class="featurette-divider">
+
+
+      <div class="featurette">
+        <h2 class="featurette-heading" style="font-family: 'Fondamento', cursive;margin-left:50px;"><a href="http://www.linkedin.com/profile/view?id=228137782&amp;trk=nav_responsive_tab_profile">Linkedin</a></h2></br>
+        <p class="lead" style="margin-left:50px;color:#909090 ">More about me.</p>
+      </div>
+
+     </br></br>
+
+      <hr class="featurette-divider" style="border-color:#282828">
+
+      <!-- /END THE FEATURETTES -->
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <footer>
+        <p>The only person who can hold you back is yourself</p>
       </footer>
-    </div>
 
-    
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+    <!-- Bootstrap jQuery plugins compiled and minified -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.carousel').carousel({
+          interval: 4000
+        });
+      });
+    </script>
 
   </body>
 </html>
