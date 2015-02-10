@@ -1,173 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <title>Matilda Bernard</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Matilda Bernard, student, internship, computers">
-    <meta name="author" content="Matilda Bernard">
 
-    <!-- Le styles -->
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <style type="text/css">
-      body {
-        padding-top: 60px;
-        padding-bottom: 40px;
-      }
-       .featurette-divider {
-      margin: 10px 0; /* Space out the Bootstrap <hr> more */
-      border-color: transparent ;
-    }
-    .featurette {
-      padding-top: 50px; /* Vertically center images part 1: add padding above and below text. */
-      overflow: hidden; /* Vertically center images part 2: clear their floats. */
-    }
-    .featurette-image {
-      height: 100px;
-      margin-bottom: 20px;
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom CSS -->
+    <link href="css/landing-page.css" rel="stylesheet">
 
-    }
+    <!-- Custom Fonts -->
+	<link rel="shortcut icon" href="img/favicon1.ico" type="image/x-icon">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
-    .featurette-image.pull-left {
-      margin-right: 40px;
-      margin-left:40px;
-    }
-    .featurette-image.pull-right {
-      margin-left: 40px;
-      margin-right: 40px;
-    }
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 
-    /* Thin out the marketing headings */
-    .featurette-heading {
-      font-size: 50px;
-      font-weight: 300;
-      line-height: 1;
-      letter-spacing: -1px;
-    }
+</head>
 
-    @media (max-width: 979px) {
-      .featurette {
-        height: auto;
-        padding: 0;
-        float:none;
-      }
-      .featurette-image.pull-left,
-      .featurette-image.pull-right {
-        display: block;
-        /*float: none;*/
-        max-width: 40%;
-        margin: 0 20px;
-      }
-      .featurette-heading.pull-left,
-      .featurette-heading.pull-right {
-        display: block;
-        /*float: none;*/
-        max-width: 40%;
-        margin: 0 auto 20px;
-      }
+<body>
 
-    }
-
-    @media (max-width: 767px) {
-
-      .marketing .span4 + .span4 {
-        margin-top: 40px;
-      }
-
-      .featurette-heading {
-        font-size: 30px;
-      }
-      .featurette .lead {
-        font-size: 18px;
-        line-height: 1.5;
-      }
-      .featurette .lead .pull-left,
-      .featurette .lead .pull-right {
-        display: block;
-        /*float: none;*/
-        max-width: 40%;
-        margin: 0 auto 20px;}
-
-      }
-    </style>
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
-    <link rel="shortcut icon" href="img/favicon1.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon1.ico" type="image/x-icon">
-    <link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Fondamento' rel='stylesheet' type='text/css'>
-
-  </head>
-
-  <body style="background-image:url('img/background.png');">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+        <div class="container topnav">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand topnav" href="#about">Matilda Bernard</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#linkedin">Linkedin</a>
+                    </li>
+                    <li>
+                        <a href="#github">Github</a>
+                    </li>
+                    <li>
+                        <a href="#blog">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#twitter">Twitter</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 
 
-    <div class="container marketing" style="width:60%">
+    <!-- Header -->
+    <a name="about"></a>
+    <div class="intro-header">
+    <div class="intro-header">
+        <div class="container">
 
-    <h1 style="color:brown;font-family: 'Arizonia', cursive;font-size:500%">Matilda Bernard</h1>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="intro-message">
+                        <h1>Matilda Bernard</h1>
+                        <h3>Passionate &nbsp * &nbsp Innovative &nbsp * &nbsp Goal-oriented</h3>
+                        <hr class="intro-divider">
+                        <ul class="list-inline intro-social-buttons">
+                            <li>
+                                <h4>MS at San Jose State University - May 2015 | Actively seeking position as a Software Engineer</h4>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.intro-header -->
+
+    <!-- Page Content -->
+
+	<a  name="linkedin"></a>
+    <div class="content-section-a">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading" style="color:#333">Linkedin</h2>
+                    <p class="lead" style="color:#333">Connect with me on Linkedin or <br/>
+					find out more about my projects. <br/><br/>
+					<a target="_blank" href="https://www.linkedin.com/in/matildabernard" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a></p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <a target="_blank" href="https://www.linkedin.com/in/matildabernard"><img class="img-responsive" src="img/linkedin.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
+
+    <a  name="github"></a>
+	<div class="content-section-b">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Github</h2>
+                    <p class="lead">A lot of my code is here
+					<br/><br/><a target="_blank" href="https://github.com/serah" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+					</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <a target="_blank" href="https://github.com/serah"><img class="img-responsive" src="img/github.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-b -->
+
+    <a  name="blog"></a>
+	<div class="content-section-a">
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-5 col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading" style="color:#333">Blog</h2>
+                    <p class="lead" style="color:#333">My ramblings... mostly about code
+					<br/><br/><a target="_blank" href="http://blog.matildabernard.com/" class="btn btn-default btn-lg"><span class="network-name">Blog</span></a>
+					</p>
+                </div>
+                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
+                    <a target="_blank" href="http://blog.matildabernard.com/"><img class="img-responsive" src="img/blogger.png" alt=""></a>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.container -->
+
+    </div>
+    <!-- /.content-section-a -->
 
 
-      <!-- START THE FEATURETTES -->
+    <a  name="twitter"></a>
+	<div class="content-section-b">
 
-      <hr class="featurette-divider" style="border-color:#282828">
+        <div class="container">
 
-      <div class="featurette">
-        <h3 class="featurette-heading" style="font-family: 'Fondamento', cursive;margin-left:50px;"><a href="http://blog.matildabernard.com">Blog</a></h3><br/>
-        <p class="lead" style="margin-left:50px;color:#909090 ">My ramblings. Mostly about code</p>
-      </div>
+            <div class="row">
+                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
+                    <hr class="section-heading-spacer">
+                    <div class="clearfix"></div>
+                    <h2 class="section-heading">Twitter</h2>
+                    <p class="lead">Tweet tweet ;)
+					<br/><br/><a target="_blank" href="https://twitter.com/RedAdmiral_" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+					</p>
+                </div>
+                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
+                    <a target="_blank" href="https://twitter.com/RedAdmiral_"><img class="img-responsive" src="img/twitter1.png" alt=""></a>
+                </div>
+            </div>
 
-      <hr class="featurette-divider">
+        </div>
+        <!-- /.container -->
 
-      <div class="featurette">
-        <h3 class="featurette-heading" style="font-family: 'Fondamento', cursive;margin-left:50px;"><a href="https://github.com/serah">Projects</a></h3><br/>
-        <p class="lead" style="margin-left:50px;color:#909090 ">Most of code is here.</p>
-      </div>
+    </div>
+	
+	
+    <!-- /.banner -->
 
-      <hr class="featurette-divider">
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+				<h4 style="color:black"><i>"Out of clutter find simplicity. From discord find harmony. In the middle of difficulty lies opportunity."</i>
+				<br/><br/>- Albert Einstein</h4>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-      <div class="featurette">
-        <h3 class="featurette-heading" style="font-family: 'Fondamento', cursive;margin-left:50px;"><a href="https://twitter.com/RedAdmiral_">Twitter</a></h3><br/>
-        <p class="lead" style="margin-left:50px;color:#909090 ">Tweet Tweet ;)</p>
-      </div>
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
 
-      <hr class="featurette-divider">
-
-
-      <div class="featurette">
-        <h3 class="featurette-heading" style="font-family: 'Fondamento', cursive;margin-left:50px;"><a href="http://www.linkedin.com/in/matildabernard">Linkedin</a></h3></br>
-        <p class="lead" style="margin-left:50px;color:#909090 ">More about me.</p>
-      </div>
-
-     </br></br>
-
-      <hr class="featurette-divider" style="border-color:#282828">
-
-      <!-- /END THE FEATURETTES -->
-
-      <!-- /END THE FEATURETTES -->
-
-
-      <footer>
-        <p class="lead">The only person who can hold you back is yourself</p>
-      </footer>
-
-    </div> <!-- /container -->
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
-    <!-- Bootstrap jQuery plugins compiled and minified -->
+    <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-    <script>
-      $(document).ready(function(){
-        $('.carousel').carousel({
-          interval: 4000
-        });
-      });
-    </script>
 
-  </body>
+</body>
+
 </html>
